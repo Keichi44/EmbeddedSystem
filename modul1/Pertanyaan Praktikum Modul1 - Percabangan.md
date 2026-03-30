@@ -118,7 +118,7 @@ void loop() {
 
 ---
 
-### Penjelasan Alur Program
+### 5. Penjelasan Alur Program
 
 1. **Kondisi Awal**
    - `timeDelay = 1000 ms`
