@@ -1,4 +1,4 @@
-# 📘 Praktikum Sistem Tertanam - Modul 1 Percabangan
+# Praktikum Sistem Tertanam - Modul 1 Percabangan
 
 ## Pertanyaan Praktikum
 
@@ -10,7 +10,7 @@
 
 ---
 
-## ✅ Jawaban
+## Jawaban
 
 ### 1. Kondisi Masuk ke Blok `if`
 
@@ -72,7 +72,7 @@ delay(timeDelay);
 ## 4. Modifikasi Program  
 ### Alur Baru: **Lambat → Cepat → Sedang → Mati (Tanpa Reset)**
 
-### 📌 Source Code
+###  Source Code
 
 ```cpp
 const int ledPin = 6;     // Menentukan pin LED pada pin digital 6
