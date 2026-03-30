@@ -1,4 +1,4 @@
-# 📘 Praktikum Sistem Tertanam - Modul 1 Percabangan
+# Praktikum Sistem Tertanam - Modul 1 Percabangan
 
 ## Pertanyaan Praktikum
 
@@ -8,9 +8,7 @@
 4. Jika program memiliki alur **mati → lambat → cepat → reset (mati)**, ubah menjadi:
    **lambat → cepat → sedang → mati (tanpa reset langsung)** dan jelaskan setiap baris kode.
 
----
-
-## ✅ Jawaban
+## Jawaban
 
 ### 1. Kondisi Masuk ke Blok `if`
 
@@ -25,8 +23,6 @@ if (timeDelay <= 100)
 - Jika kondisi tersebut benar, maka blok `if` dijalankan  
 - Kondisi ini menunjukkan bahwa LED sudah berada pada kecepatan kedip yang sangat cepat  
 - Biasanya terjadi setelah delay dikurangi secara bertahap pada setiap siklus  
-
----
 
 ### 2. Kondisi Masuk ke Blok `else`
 
@@ -47,8 +43,6 @@ timeDelay -= 100;
 - Maka delay akan dikurangi sebesar 100 ms setiap siklus  
 - Hal ini menyebabkan LED berkedip semakin cepat secara bertahap  
 
----
-
 ### 3. Fungsi `delay(timeDelay)`
 
 Fungsi:
@@ -67,12 +61,10 @@ delay(timeDelay);
 - Semakin kecil nilai delay → semakin cepat kedipan LED  
 - Semakin besar nilai delay → semakin lambat kedipan LED  
 
----
-
 ## 4. Modifikasi Program  
 ### Alur Baru: **Lambat → Cepat → Sedang → Mati (Tanpa Reset)**
 
-### 📌 Source Code
+### Source Code
 
 ```cpp
 const int ledPin = 6;     // Menentukan pin LED pada pin digital 6
@@ -116,8 +108,6 @@ void loop() {
 }
 ```
 
----
-
 ### Penjelasan Alur Program
 
 1. **Kondisi Awal**
@@ -142,8 +132,6 @@ void loop() {
 5. **Program Berhenti**
    - LED dimatikan  
    - `while(true)` menjaga program tetap berhenti (tidak reset ulang)  
-
----
 
 ## Kesimpulan
 
